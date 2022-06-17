@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitter&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+::before {
+  content: "";
+}
+
+.content {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.content-header {
+  height: 85px;
+  -webkit-box-shadow: 0px 1px 8px rgba(83, 109, 122, 0.29);
+          box-shadow: 0px 1px 8px rgba(83, 109, 122, 0.29);
+  margin-bottom: 60px;
+}
+.content-page .content-page-buy {
+  background-color: #E3EBF1;
+  padding: 50px;
+  margin-bottom: 75px;
+}
+.content-page .content-page-buy img {
+  display: inline-block;
+  width: 48%;
+  margin-right: 3%;
+}
+.content-page .content-page-buy .content-page-buy-container {
+  display: inline-block;
+  width: 48%;
+}
+.content-page .content-page-buy .content-page-buy-container .content-page-buy__top {
+  font-family: "Raleway";
+  font-size: 18px;
+  line-height: 25px;
+  color: #10843F;
+  margin-bottom: 8px;
+}
+.content-page .content-page-buy .content-page-buy-container h1 {
+  font-family: "Bitter";
+  font-size: 47px;
+  line-height: 52px;
+  color: #1D2F38;
+  margin-bottom: 20px;
+}
+.content-page .content-page-buy .content-page-buy-container .content-page-buy__about {
+  font-family: "Raleway";
+  font-size: 18px;
+  line-height: 24px;
+  color: #333333;
+  margin-bottom: 25px;
+}
+.content-page .content-page-buy .content-page-buy-container .content-page-buy__about span {
+  font-weight: 700;
+}
+.content-page .content-page-buy .content-page-buy-container .content-page-buy__buy-button {
+  display: inline-block;
+  height: 50px;
+  width: 161px;
+  background: #17A550;
+  border-radius: 5px;
+  font-family: "Raleway";
+  line-height: 50px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.content-page .content-page-blog {
+  margin-bottom: 100px;
+}
+.content-page .content-page-blog h2 {
+  font-family: "Bitter";
+  font-size: 38px;
+  line-height: 40px;
+  color: #1D2F38;
+  margin-bottom: 30px;
+}
+.content-page .content-page-blog .content-page-blog-conteiner .content-page-blog-conteiner-main {
+  display: inline-block;
+  width: 48%;
+  margin-right: 3%;
+}
+.content-page .content-page-blog .content-page-blog-conteiner .content-page-blog-conteiner-main img {
+  margin-bottom: 8px;
+}
+.content-page .content-page-blog .content-page-blog-conteiner .content-page-blog-conteiner-main h3 {
+  font-family: "Bitter";
+  font-size: 30px;
+  line-height: 35px;
+  color: #1D2F38;
+  margin-bottom: 10px;
+}
+.content-page .content-page-blog .content-page-blog-conteiner .content-page-blog-conteiner-main p {
+  font-family: "Raleway";
+  font-size: 15px;
+  line-height: 20px;
+  color: #1D2F38;
+}
+.content-page .content-page-blog .content-page-blog-conteiner .content-page-blog-conteiner-main-other {
+  display: inline-block;
+  width: 48%;
+}
+.content-page .content-page-blog .content-page-blog-conteiner .content-page-blog-conteiner-main-other div {
+  margin-bottom: 15px;
+}
+.content-page .content-page-blog .content-page-blog-conteiner .content-page-blog-conteiner-main-other div img {
+  display: inline-block;
+  width: 48%;
+  margin-right: 3%;
+}
+.content-page .content-page-blog .content-page-blog-conteiner .content-page-blog-conteiner-main-other div p {
+  width: 150px;
+  display: inline-block;
+  font-family: "Raleway";
+  font-size: 18px;
+  line-height: 25px;
+  color: #1D2F38;
+  width: 48%;
+}

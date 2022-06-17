@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+
+@import "reset.scss";
+@import "chit.scss";
+
+body{
+    
+}
+.content {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+.content-header {
+    height: 85px;
+    box-shadow: 0px 1px 8px rgba(83, 109, 122, 0.29);
+    margin-bottom: 60px;
+    .content-header__logo {
+    }
+}
+
+.content-page {
+    .content-page-buy {
+        background-color: #E3EBF1;
+        padding: 50px;
+        margin-bottom: 75px;
+        img{
+            display: inline-block;
+            width: 48%;
+            margin-right: 3%;
+        }
+        .content-page-buy-container{
+            display: inline-block;
+            width: 48%;
+            .content-page-buy__top {
+                font-family: 'Raleway';
+                font-size: 18px;
+                line-height: 25px;
+                color: #10843F;
+                margin-bottom: 8px;
+            }
+            h1{
+                font-family: 'Bitter';
+                font-size: 47px;
+                line-height: 52px;
+                color: #1D2F38;
+                margin-bottom: 20px;
+            }
+            .content-page-buy__about {
+                span{
+                    font-weight: 700;
+                }
+                font-family: 'Raleway';
+                font-size: 18px;
+                line-height: 24px;
+                color: #333333;
+                margin-bottom: 25px;
+            }
+            .content-page-buy__buy-button {
+                display: inline-block;
+                height: 50px;
+                width: 161px;
+                background: #17A550;
+                border-radius: 5px;
+                
+                font-family: 'Raleway';
+                line-height: 50px;
+                text-align: center;
+                color: #FFFFFF;
+            }
+        }
+    }
+    .content-page-blog {
+        margin-bottom: 100px;
+        h2{
+            font-family: 'Bitter';
+            font-size: 38px;
+            line-height: 40px;
+            color: #1D2F38;
+            margin-bottom: 30px;
+        }
+        .content-page-blog-conteiner {
+            .content-page-blog-conteiner-main {
+                display: inline-block;
+                width: 48%;
+                margin-right: 3%;
+                img{
+                    margin-bottom: 8px;
+                }
+                h3{
+                    font-family: 'Bitter';
+                    font-size: 30px;
+                    line-height: 35px;
+                    color: #1D2F38;
+                    margin-bottom: 10px;
+                }
+                p{
+                    font-family: 'Raleway';
+                    font-size: 15px;
+                    line-height: 20px;
+                    color: #1D2F38;
+                }
+            }
+            .content-page-blog-conteiner-main-other {
+                display: inline-block;
+                width: 48%;
+                div{
+                    margin-bottom: 15px;
+                    img{
+                        display: inline-block;
+                        width: 48%;
+                        margin-right: 3%;
+                    }
+                    p{
+                        width: 150px;
+                        display: inline-block;
+                        font-family: 'Raleway';
+                        font-size: 18px;
+                        line-height: 25px;
+                        color: #1D2F38;
+                        width: 48%;
+                    }
+                }
+            }
+        }
+    }
+}
