@@ -23,16 +23,18 @@ body{
     }
     &__menu {
         display: flex;
-        align-items: center;
+        flex-wrap: wrap;
+        align-items:center;
         flex: 1 1 auto;
         div{
-            padding: 0 25px;
+            padding: 0px 25px;
             height: 20px;
             line-height: 20px;
         }
     }
     &__signup {
         line-height: 20px;
+        flex: 0 0 auto;
         img{
             position: relative;
             top: -3px;
@@ -46,7 +48,7 @@ body{
 }
 
 .promo {
-    padding: 50px;
+    padding: 50px 50px 30px 50px;
     background-color: #E3EBF1;
     border-radius: 10px;
     margin-bottom: 77px;
@@ -59,10 +61,12 @@ body{
             max-width: 500px;
             max-height: 386px;
             margin-right: 50px;
+            margin-bottom: 20px;
         }
     }
     &__content {
         flex: 1 1 43%;
+        margin-bottom: 20px;
         }
 
     &__subtitle {
@@ -114,7 +118,7 @@ body{
     }
     &__row {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         flex-wrap: wrap;
         margin-bottom: 50px;
     }
@@ -330,7 +334,7 @@ body{
     background: #F7F9FA;
     &__row {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         flex-wrap: wrap;
         &>div{
             width: 340px;

@@ -105,6 +105,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -113,12 +115,15 @@ body {
           flex: 1 1 auto;
 }
 .header__menu div {
-  padding: 0 25px;
+  padding: 0px 25px;
   height: 20px;
   line-height: 20px;
 }
 .header__signup {
   line-height: 20px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
 }
 .header__signup img {
   position: relative;
@@ -132,7 +137,7 @@ body {
 }
 
 .promo {
-  padding: 50px;
+  padding: 50px 50px 30px 50px;
   background-color: #E3EBF1;
   border-radius: 10px;
   margin-bottom: 77px;
@@ -153,11 +158,13 @@ body {
   max-width: 500px;
   max-height: 386px;
   margin-right: 50px;
+  margin-bottom: 20px;
 }
 .promo__content {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 43%;
           flex: 1 1 43%;
+  margin-bottom: 20px;
 }
 .promo__subtitle {
   font-family: "Raleway";
@@ -208,9 +215,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-bottom: 50px;
@@ -457,9 +463,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
