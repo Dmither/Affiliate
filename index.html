@@ -4,58 +4,154 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SASS proj1</title>
+    <title>Affiliate</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="content">
-        <header>
-            <div class="content-header">
-                <div class="content-header__logo">
-
+    <header class="header">
+        <div class="content">
+            <div class="header__row">
+                <div class="header__logo">
+                    <img src="img/svg/LOGO.svg" alt="">
                 </div>
-                <nav>
-
-                </nav>
-            </div>
-        </header>
-        <div class="content-page">
-            <div class="content-page-buy">
-                <img src="img/svg/IMAGE.svg" alt="">
-                <div class="content-page-buy-container">
-                    <p class="content-page-buy__top">Introducing Affiliate Template for Webflow</p>
-                    <h1>Easy-to-use Template for building Affiliate Sites</h1>
-                    <p class="content-page-buy__about"><span>Affiliate</span> is a Webflow template made for entrepreneurs who want a professional and polished site ready to start and grow their affiliate marketing business in any niche.</p>
-                    <a href="" class="content-page-buy__buy-button">
-                        Buy this Template
-                    </a>
+                <div class="header__menu">
+                    <div class="header__pages">
+                        Pages
+                    </div>
+                    <div class="header__categories">
+                        <img src="img/svg/CatImg.svg" alt="">
+                        Categories
+                    </div>
+                    <div class="header__blog">
+                        <img src="img/svg/BlogImg.svg" alt="">
+                        Blog
+                    </div>
+                    <div class="header__reviews">
+                        <img src="img/svg/RevImg.svg" alt="">
+                        Reviews
+                    </div>
+                    <div class="header__buy">
+                        <img src="img/svg/BuyImg.svg" alt="">
+                        Buying Guides
+                    </div>
+                </div>
+                <div class="header__signup">
+                    <img src="img/svg/SIGNUP.svg" alt="">
+                    Sign up
                 </div>
             </div>
-            <div class="content-page-blog">
-                <h2>Latest from the Blog</h2>
-                <div class="content-page-blog-conteiner">
-                    <div class="content-page-blog-conteiner-main">
+        </div>
+    </header>
+    <div class="page">
+        <div class="content">
+            <div class="promo">
+                <div class="promo__row">
+                    <img src="img/svg/IMAGE.svg" alt="">
+                    <div class="promo__content">
+                        <p class="promo__subtitle">Introducing Affiliate Template for Webflow</p>
+                        <h1 class="promo__title">Easy-to-use Template for building Affiliate Sites</h1>
+                        <p class="promo__text"><span>Affiliate</span> is a Webflow template made for entrepreneurs who want a professional and polished site ready to start and grow their affiliate marketing business in any niche.</p>
+                        <a href="">Buy this Template</a>
+                    </div>
+                </div>
+            </div>
+            <div class="blog">
+                <h2 class="title blog__title">Latest from the Blog</h2>
+                <div class="blog__row">
+                    <div class="blog__main">
                         <img src="img/jpg/IMAGE.jpg" alt="">
                         <h3>How to Prep Your Lawn in the Spring</h3>
                         <p>This is the blog description text. This is the blog description text. This is the blog description text.</p>
                     </div>
-                    <div class="content-page-blog-conteiner-main-other">
-                        <div>
+                    <div class="blog__other">
+                        <div class="blog__item">
                             <img src="img/jpg/IMAGE(1).jpg" alt="">
                             <p>Secrets to Know About Hedge Trimming</p>
                         </div>
-                        <div>
+                        <div class="blog__item">
                             <img src="img/jpg/IMAGE(2).jpg" alt="">
                             <p>What to Do With a Dying Tree</p>
                         </div>
-                        <div>
+                        <div class="blog__item">
                             <img src="img/jpg/IMAGE(3).jpg" alt="">
                             <p>Which Flowers Should You Plant Garden</p>
                         </div>
                     </div>
                 </div>
+                <a href="" class="hider"><span>View All Blog Articles</span></a>
+            </div>
+            <div class="best-prod">
+                <img src="img/svg/BestProdIcon.svg" alt="">
+                <h2>View our list of the best products in lawncare.</h2>
+                <a href=""><span>See the list</span></a>
+            </div>
+            <div class="product">
+                <div class="title product__title">Latest Product Reviews</div>
+                <div class="product__row">
+                    <div class="product__item">
+                        <img src="img/jpg/Prod1.jpg" alt="">
+                        <div>
+                            <h3>Lawnmower Xtreme</h3>
+                            <p>This is the Review Snippet. This is the Review Snippet. This is the Review Snippet. This is the Review Snippet.</p>
+                        </div>
+                    </div>
+                    <div class="product__item">
+                        <img src="img/jpg/Prod2.jpg" alt="">
+                        <div>
+                            <h3>Ultra Grow Fertilizer</h3>
+                            <p>This is the Review Snippet. This is the Review Snippet. This is the Review Snippet. This is the Review Snippet.</p>
+                        </div>
+                    </div>
+                    <div class="product__item">
+                        <img src="img/jpg/Prod3.png" alt="">
+                        <div>
+                            <h3>Hedge Clippers</h3>
+                            <p>This is the Review Snippet. This is the Review Snippet. This is the Review Snippet. This is the Review Snippet.</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="" class="hider"><span>View all Product Reviews</span></a>
+            </div>
+            <div class="signup">
+                <div class="signup__row">
+                    <img class="signup__img" src="img/svg/SignUpImage.svg" alt="">
+                    <div class="signup__form">
+                        <div class="signup__title">
+                            <div><img src="img/svg/SignUpIcon.svg" alt=""></div>
+                            <h3>Newsletter Signup</h3>
+                        </div>
+                        <p>Be the first to receive updates on articles, product reviews, courses, and more!</p>
+                        <form action="#" method="get">
+                            <input type="email" name="usermail" placeholder="Your email">
+                            <button type="submit">Submit</button>
+                            <a href="">Private Policy</a>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
+        
     </div>
+    <footer class="footer">
+        <div class="content">
+            <div class="footer__row">
+                <div class="footer__info">
+                    <img class="footer__logo" src="img/svg/LOGO.svg" alt="">
+                    <div class="footer__social-networks">
+                        <a href=""><img src="img/svg/FacebookLogo.svg" alt=""></a>
+                        <a href=""><img src="img/svg/TwitterLogo.svg" alt=""></a>
+                        <a href=""><img src="img/svg/InstaLogo.svg" alt=""></a>
+                    </div>
+                    <p><span>Affiliate</span> is a Webflow template made for entrepreneurs who want a professional and polished site ready to start and grow their affiliate marketing business in any niche.</p>
+                </div>
+                <div class="footer__latest">
+                    <h3>Latest Articles</h3>
+                </div>
+                <div class="footer__browse">
+                    <h3>Browse</h3>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
